@@ -1,11 +1,12 @@
-.site-banner .container {
-  padding-top: 12px
-}
-
 .site-banner .row {
   padding: 26px 14px;
   border-radius: 20px;
   background-color: lightskyblue;
+}
+
+.navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
 }
 
 #logo {
