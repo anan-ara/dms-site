@@ -22,7 +22,7 @@
   <!-- Header -->
   <header>
     <div class="main-menu">
-      <nav class="navbar navbar-expand-md navbar-light" style="background-color: #e3f2fd;">
+      <nav class="navbar sticky-top navbar-expand-md navbar-light" style="background-color: #e3f2fd;">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="./img/icon.jpg" alt="SDM" id="logo">
@@ -65,21 +65,23 @@
     </div>
   </header>
 
+  <div id="anima"></div>
+
   <main>
     <section class="site-banner pt-4">
-      <div class="container-lg">
+      <div class="container">
         <div class="row">
           <div class="col-sm-6">
             <h3 class="title-text">Entrepreneur, Fund Manager, Visionary</h3>
-            <h1 class="title-text">Dong Min Shin</h3>
+            <h1 class="title-text">Dong Min "Daniel" Shin</h3>
               <div class="site-buttons">
                 <div class="d-flex flex-row flex-wrap">
-                  <button type="button" class="btn mr-4">My Portfolio</button>
-                  <button type="button" class="btn mr-4">Contact</button>
+                  <button type="button" class="btn btn-light btn-outline-primary me-4">My Portfolio</button>
+                  <button type="button" class="btn btn-light btn-outline-primary">Contact</button>
                 </div>
               </div>
           </div>
-          <div class="col-sm-6 d-flex justify-content-center">
+          <div class="col-sm-6 d-flex justify-content-center mt-4 mt-sm-0">
             <img src="./img/ShinDongMin.jpeg" alt="SDM" class="img-fluid" id="face">
 
           </div>
@@ -93,6 +95,14 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
     crossorigin="anonymous"></script>
+
+  <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Load our React component. -->
+  <script src="./js/index.js"></script>
 </body>
 
 </html>
